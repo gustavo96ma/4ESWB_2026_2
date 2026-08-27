@@ -40,9 +40,9 @@ Exercício de modelagem de um domínio de cozinha. As classes são:
 
 O exercício exercita composição: um `Prato` não herda de `Ingrediente`, ele *contém* uma lista de ingredientes. Essa distinção entre "é um" (herança) e "tem um" (composição) é a decisão de modelagem mais frequente que vocês vão enfrentar, e errá-la produz hierarquias de classes que ninguém consegue manter depois.
 
-### 17-08 — Exercício em sala
+### 17-08 — Exercício avaliativo em sala
 
-Atividade avaliativa realizada durante a aula.
+Atividade avaliativa feita durante a aula, sobre o conteúdo de orientação a objetos do projeto `gourmet`. Não há código desta data no repositório: a entrega foi individual de cada aluno.
 
 ### 18-08 — `galinha`: primeiro app Flutter
 
