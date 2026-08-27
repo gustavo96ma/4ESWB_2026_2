@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Notas de avaliacao (dados pessoais de alunos - nao versionar)
+notas.md
+**/notas.md
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Notas de planejamento do professor
+postar.md
+**/postar.md
