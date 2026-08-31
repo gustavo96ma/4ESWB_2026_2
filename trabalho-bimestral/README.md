@@ -180,7 +180,7 @@ Além disso, a classe pai deve ter um método que devolva uma descrição do obj
 
 O bloco `[2]` imprime a saída desse método nas duas classes, uma abaixo da outra. É essa comparação que torna a herança visível: as duas linhas partem do mesmo método, e a diferença entre elas é exatamente o que a especialização acrescentou.
 
-Foi o que fizemos com `Casamento extends Relacionamento`. O teste para saber se a herança cabe é a frase "todo X é um Y": todo casamento é um relacionamento, então cabe. Se a frase soar estranha, o caminho certo é o exercício 3.
+No `gourmet` não chegamos a usar herança — lá a relação entre as classes é toda de composição. O teste para saber se a herança cabe é a frase "todo X é um Y": toda sobremesa é um prato, então `Sobremesa extends Prato` caberia. Se a frase soar estranha, o caminho certo é o exercício 3.
 
 ### 3 — Composição
 **Recurso obrigatório:** atributo do tipo `List<T>` de outra classe sua — **Conceito obrigatório:** distinção entre "é um" e "tem um"
